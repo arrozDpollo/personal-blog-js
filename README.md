@@ -17,5 +17,4 @@ This project is a simple two-page personal blog that allows users to submit blog
 4. View your blog posts on the `blog.html` page.
 
 ## Links
-- [Live Application](https://your-live-url.com)
-- [GitHub Repository](https://github.com/your-repo-link)
+- [Live Application](https://arrozdpollo.github.io/personal-blog-js)
