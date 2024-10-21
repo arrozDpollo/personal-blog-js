@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: white;
+  }
+  
+
+  /* Blog card styles */
+.blog-card {
+    background-color: white; /* Light mode background */
+    color: black; /* Light mode text color */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Dark mode styles for blog cards */
+body.dark-mode .blog-card {
+    background-color: #333; /* Dark mode background */
+    color: white; /* Dark mode text color */
+    border: 1px solid #555; /* Darker border for contrast */
+}
